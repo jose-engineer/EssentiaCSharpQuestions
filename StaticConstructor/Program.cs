@@ -10,7 +10,7 @@ namespace StaticConstructor
             t.Print();
         }
 
-        public class TestStatic
+        public class TestStatic //This is not a static class but can have static constructor
         {
             public static int TestValue;
 
