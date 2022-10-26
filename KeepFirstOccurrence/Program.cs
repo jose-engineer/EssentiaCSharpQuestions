@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
-namespace KeepFirstOccurrence
-{
+namespace KeepFirstOccurrence {
+//Question: How do you remove all but the first occurrence of $ from a given string?
     class Program
     {
         static void Main(string[] args)

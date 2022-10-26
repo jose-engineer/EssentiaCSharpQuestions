@@ -14,8 +14,8 @@ namespace ReferenceTypeValueType
         static void Main(string[] args)
         {    
 
-            Console.WriteLine(location == null ? "location is null" : null);
-            Console.WriteLine(time == null ? "time is null" : time.ToString());
+            Console.WriteLine(location == null ? "location is null" : null); //location is null            
+            Console.WriteLine(time == null ? "time is null" : time.ToString()); //1 / 1 / 0001 12:00:00 AM
             Console.ReadKey();
 
     
